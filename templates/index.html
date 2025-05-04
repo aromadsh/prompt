@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning space - 멈추지 않는 성장</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Learning space</h1>
+            <p class="tagline">멈추지 않는 성장</p>
+            <a href="https://boombit.pro/" target="_blank" class="cta-btn">
+                <span class="default-text">지금 시작하기</span>
+                <span class="hover-text">Let's go</span>
+            </a>
+        </div>
+    </header>
+
+    <section id="about" class="section center-text">
+        <div class="container">
+            <h2>우리는 누구인가요?</h2>
+            <p>AI를 배우고 싶은 당신, 이제 '제대로' 시작할 차례입니다.</p>
+        </div>
+    </section>
+
+    <section id="services" class="section bg-light center-text">
+        <div class="container">
+            <h2>무엇을 배우나요?</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>Python 프로그래밍</h3>
+                    <p>파이썬으로, 코딩의 '첫 판'을 깔아드립니다.</p>
+                    <div class="img-wrapper">
+                        <img src="{{ url_for('static', filename='images/python.png') }}" alt="Python 로고">
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>C 언어</h3>
+                    <p>‘C’작은 문법으로 ‘큰’ 컴퓨팅 사고력을 만듭니다.</p>
+                    <div class="img-wrapper">
+                        <img src="{{ url_for('static', filename='images/c.png') }}" alt="C 로고">
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>머신러닝 / 딥러닝</h3>
+                    <p>데이터를 배우면, 미래가 ‘보이기’ 시작합니다.</p>
+                    <div class="img-wrapper">
+                        <img src="{{ url_for('static', filename='images/ml_dl.png') }}" alt="ML/DL 로고">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="audience" class="section">
+        <div class="container">
+            <h2>이런 분께 추천해요</h2>
+            <ul class="audience-list">
+                <li>AI 기술에 뒤처질까 두려운 직장인</li>
+                <li>코딩, 어디서부터 시작할지 막막한 입문자</li>
+                <li>포트폴리오가 필요한 취업/이직 준비생</li>
+                <li>개발자의 꿈을 키우는 전공/비전공 대학생</li>
+                <li>AI 프로젝트를 직접 만들고 싶은 학습러</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="cta" class="section cta-section">
+        <div class="container center">
+            <h2>지금 Learning space와 함께 성장하세요</h2>
+            <a href="https://open.kakao.com/o/gQytkxih" target="_blank" class="cta-btn large">
+                <span class="default-text">무료 체험하기</span>
+                <span class="hover-text">Let's go</span>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Contact: hello@learningspace.ai</p>
+            <p>© 2025 Learning space. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

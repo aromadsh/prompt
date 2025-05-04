@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f9fafe;
+    color: #1f1f1f;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(135deg, #2962ff, #0039cb);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* CTA 버튼 */
+.cta-btn {
+    position: relative;
+    display: inline-block;
+    background-color: #ffca28;
+    color: #1f1f1f;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-weight: bold;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.cta-btn:hover {
+    background-color: #2962ff;
+    color: white;
+}
+
+.cta-btn .default-text,
+.cta-btn .hover-text {
+    transition: opacity 0.3s ease;
+    display: block;
+}
+
+.cta-btn .hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    color: white;
+}
+
+.cta-btn .default-text {
+    opacity: 1;
+}
+
+.cta-btn:hover .default-text {
+    opacity: 0;
+}
+
+.cta-btn:hover .hover-text {
+    opacity: 1;
+}
+
+.cta-btn.large {
+    font-size: 1.1em;
+    padding: 16px 36px;
+}
+
+/* Section */
+.section {
+    padding: 80px 0;
+}
+
+.bg-light {
+    background-color: #eef3fb;
+}
+
+.grid-3 {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    flex: 1;
+    min-width: 280px;
+}
+
+/* 이미지 정렬 */
+.img-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.img-wrapper img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* 추천 대상 */
+.audience-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.audience-list li {
+    background: #e3f2fd;
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* CTA 마지막 영역 */
+.cta-section {
+    background: #dcedc8;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #eceff1;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 0.9em;
+    color: #607d8b;
+}
